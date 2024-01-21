@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color: #1145FF;
+    --accent1-color: #F390A2;
+    --accent2-color: #9CFFF0;
+    --accent3-color: #000000;
+
+    --heading-font: 'Oswald', serif;
+    --paragraph-font: 'Poppins', serif;
+
+    --nav-background-color: #FFFFFF;
+    --nav-link-color: #1145FF;
+    --nav-hover-link-color: #F390A2;
+    --nav-hover-background-color: #000000;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--accent3-color)
+}
+header{
+    padding: 20px;
+    background-color: var(--nav-background-color);
+}
+p{
+    padding: 25px;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

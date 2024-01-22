@@ -1,3 +1,5 @@
+/*The import in the begning stands for the importing the google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 :root{
     --primary-color: #FFFFFF;
@@ -11,8 +13,8 @@
 
     --nav-background-color: #FFFFFF;
     --nav-link-color: #1145FF;
-    --nav-hover-link-color: #F390A2;
-    --nav-hover-background-color: #000000;
+    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-background-color: #1145FF;
 }
 body{
     font-family: 'Oswald', sans-serif;

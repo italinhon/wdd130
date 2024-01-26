@@ -2,12 +2,12 @@
 *{
     margin: 0px;
     padding: 2px;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 /*nav configures the big blue heading styles*/
 nav {
     background-color: steelblue;
-    padding: 0px;
+    padding: 20px;
 }
 /*nav a controls the links on the blue header*/
 nav a {

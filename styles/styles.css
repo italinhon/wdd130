@@ -1,6 +1,6 @@
 /*The Universal Selctor Asterists controls the hole page*/
 *{
-    margin: 2px;
+    margin: 0px;
     padding: 2px;
     box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ nav {
 /*nav a controls the links on the blue header*/
 nav a {
     color: white;
-    display: list-item;
+    display: inline-block;
     padding: 10px;
 }
 h1 {

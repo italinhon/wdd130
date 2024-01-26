@@ -1,13 +1,15 @@
+/*The Universal Selctor Asterists controls the hole page*/
 *{
     margin: 3px;
     padding: 2px;
     box-sizing: border-box;
 }
-
+/*nav configures the big blue heading styles*/
 nav {
     background-color: steelblue;
     padding: 0px;
 }
+/*nav a controls the links on the blue header*/
 nav a {
     color: white;
     display: list-item;

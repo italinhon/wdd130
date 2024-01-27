@@ -2,7 +2,15 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: content-box;
+}
+.fit{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center{
+    display: block;
+    margin: auto;
 }
 
 :root{
@@ -28,6 +36,10 @@ body{
     padding: 0px;
     text-size-adjust: auto;
     font-size: 1.2rem;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
 
 }
 h1, h2, h3, h4, h5, h6{
@@ -90,24 +102,33 @@ h1 {
 	position: relative; /* If removed, what happens? */
 }
 
+.hero img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
 /*Image Inside the blue box*/
 .stats img{
-    display: flex;
+    display: block;
+    margin: auto;
     position: relative;
     left: 500px;
     top: 5px;
     bottom: auto;
-    width: 300px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: scale-down;
 }
 /*Blue Box*/
 .stats {
 	position: absolute;
+    margin: auto;
+    display: block;
     top: 100px;
     left: 10px;
     right: 10px;
-	bottom: 100px;
+	bottom: 250px;
 	background: radial-gradient(#ffffff, #6c9af7);
 	border: 1px solid #000;
 	padding: 1rem;
@@ -124,4 +145,8 @@ section{
 
 img {
     padding: 10px;
+}
+div{
+    width: 100vw;
+    height: 100vh;
 }

@@ -113,12 +113,10 @@ h1 {
     display: block;
     margin: auto;
     position: relative;
-    left: 500px;
     top: 5px;
     bottom: auto;
-    width: 100px;
-    height: 100px;
-    object-fit: scale-down;
+    width: 200px;
+    height: 150px;
 }
 /*Blue Box*/
 .stats {

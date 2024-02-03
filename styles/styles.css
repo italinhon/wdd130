@@ -1,23 +1,38 @@
 /*The Universal Selctor Asterists controls the hole page*/
-*{
+* {
     margin: 0px;
     padding: 2px;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
+
 /*nav configures the big blue heading styles*/
 nav {
     background-color: steelblue;
-    padding: 20px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
+header {
+    display: block;
+}
+
 /*nav a controls the links on the blue header*/
 nav a {
     color: white;
     display: inline-block;
-    padding: 10px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+
 }
+
 h1 {
     color: steelblue;
 }
+
 img {
     width: 150px;
     height: auto;
@@ -25,13 +40,18 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 20px;
 }
-main{
+
+main {
     max-width: 600px;
+    margin: 1rem;
+    grid-column: 2;
 }
-aside{
+
+/*aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -39,31 +59,80 @@ aside{
     background-color: #eee;
     color: #333;
     text-align: center;
-}
-aside img{
+}*/
+
+aside img {
     width: 200px;
     height: auto;
 }
-main img{
+
+main img {
     width: 150px;
     height: auto;
     float: right;
 }
-footer{
+
+footer {
     margin-top: 15px;
-    border-top: 1px  solid #000;
+    border-top: 1px solid #000;
     text-align: center;
 }
+
 /*Class Selectors*/
-.box{
+.box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    text-align: center;
 }
 
-aside{
+.box1 {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    text-align: left;
+}
+
+aside {
     width: 20rem;
-    text-align: center;
+    position: relative;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+
+}
+
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+    /*This means you should delete this max-width decoration from header, main, and footer selectors if necessary.*/
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }

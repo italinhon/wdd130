@@ -83,8 +83,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-    width: 150px;
-    text-align: center;
+
 }
 
 button:hover {
@@ -111,6 +110,7 @@ footer {
 }
 
 .column2 {
-    grid-template-columns: 1fr 2fr;
-    margin: 1.5rem;
+    grid-template-columns:  1fr;
+    margin: .5rem;
+    align-items: center;
 }

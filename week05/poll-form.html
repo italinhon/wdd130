@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Italo Siqueira | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+            <legend>Contact Information</legend>
+            <!-- simple way to combine all together-->
+
+                <div class="form-item column2">
+                    <label>Full Name: <input type="text" name="fullname"></label>
+                    <!-- Fullname and Email Address -->
+                </div>
+                <div class="form-item column2">
+                    <label>Email: <input type="email" name="useremail"></label>
+                </div>
+            </fieldset>
+            <fieldset>  
+                <legend>Questions</legend>
+                    <div class="form-item column1">
+                        <label for="browser">What is your favorite browser?</label>
+                        <select id="browser" name="browser">
+                            <option value="chrome">Chrome</option>
+                            <option value="safari">Safari</option>
+                            <option value="firefox">Firefox</option>
+                            <option value="opera">Opera</option>
+                            <option value="brave">Brave</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</lable>
+                            <input type="checkbox" id="pet" name="pet">
+                    </div>
+                </div>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                    placeholder="Stillwater Florida, Amsterdam Netherlands, Capivari Brazil"></textarea>
+                <!--form elements will go here-->
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy2024 | HTML Form - User Poll Activity | 👨‍💻 Italo Siqueira 💻</p>
+    </footer>
+</body>
+
+</html>

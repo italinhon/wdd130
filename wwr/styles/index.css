@@ -100,6 +100,7 @@ nav a:hover {
 
 .slides {
     display: flex;
+    animation: slide 10s infinite;
 }
 
 .slide {
@@ -108,7 +109,7 @@ nav a:hover {
 }
 
 .slide img {
-    width: 1400px;
+    width: 1350px;
     height: auto;
 }
 
@@ -170,6 +171,7 @@ input[type=radio]:checked~.navigation-slide lable {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .newslatter button:hover {

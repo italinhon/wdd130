@@ -205,9 +205,9 @@ div {
 
 .history {
     text-align: center;
-    margin: auto;
-    margin-left: 64px;
-    margin-top: 250px;
+    margin-left: 125px;
+    margin-top: 200px;
+    margin-bottom: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;

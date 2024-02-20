@@ -24,16 +24,10 @@ body {
     max-width: 2000px;
     padding: 0px;
     text-size-adjust: auto;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin: 0px;
     width: 100vw;
     height: 100vh;
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--accent3-color)
 }
 
 header {
@@ -91,6 +85,32 @@ nav a:hover {
     text-decoration: none;
 }
 
+.stats h1 {
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--accent3-color);
+    font-family: "Manrope", sans-serif;
+    font-size: 3.4rem;
+    margin-bottom: 1rem;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+}
+
+.stats p {
+    font-size: 22px;
+    line-height: 1.5;
+    display: block;
+    text-align: center;
+    margin-left: 7rem;
+    background-color: #a9d1f1;
+    padding: 20px;
+    width: 1100px;
+    height: auto;
+    text-align: left;
+}
+
+
 .carousel {
     position: relative;
     overflow: hidden;
@@ -109,12 +129,9 @@ nav a:hover {
 }
 
 .slide img {
-    width: 1350px;
+    width: 1100px;
     height: auto;
-}
-
-input[type="radio"]:checked~.slide .slides {
-    transform: translateX(-100%);
+    margin-left: 125px;
 }
 
 .navigation-slide {
@@ -133,20 +150,22 @@ input[type="radio"]:checked~.slide .slides {
     border-radius: 50%;
     margin: 0 5px;
 }
-
-input[type=radio]:checked~.navigation-slide lable {
-    background: #333;
-}
-
 .newslatter {
     text-align: center;
 }
 
 .newslatter h2 {
+    margin-top: 5rem;
     margin-bottom: 10px;
 }
 
 .newslatter form {
+    background-color: #a9d1f1;
+    margin-left: 400px;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;

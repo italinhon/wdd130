@@ -10,13 +10,12 @@ header {
     padding: 0px;
     background-color: var(--nav-background-color);
     display: grid;
-    grid-template-columns: 200px 2fr 2fr;
+    grid-template-columns: 200px 2fr;
     align-items: center;
     border-bottom: 1px solid #ccc;
     max-width: 1200px;
     height: 120px;
-    font:
-        bold calc(1em + 2 * (100vw - 120px) / 100) 'Oswald';
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Oswald';
     text-shadow: #000 2px 2px 0.2rem;
 }
 
@@ -25,8 +24,8 @@ header {
     --secondary-color: #1145FF;
     --accent3-color: #000000;
     --heading-font: 'Oswald', serif;
-    --paragraph-font: 'Poppins', ;
-    /*Navigation Buttons Color*/
+    --paragraph-font: 'Poppins', sans-serif;
+    /* Navigation Buttons Color */
     --nav-background-color: #6ea8ff;
     --nav-link-color: #ffffff;
     --nav-hover-link-color: #ffffff;
@@ -38,8 +37,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Poppins', sans-serif var(--paragraph-font);
+    font-family: var(--paragraph-font);
     max-width: 2000px;
     padding: 0px;
     text-size-adjust: auto;
@@ -113,16 +111,17 @@ nav a:hover {
     height: auto;
     text-align: left;
 }
-.newslatter {
+
+.newsletter {
     text-align: center;
 }
 
-.newslatter h2 {
+.newsletter h2 {
     margin-top: 5rem;
     margin-bottom: 10px;
 }
 
-.newslatter form {
+.newsletter form {
     background-color: #a9d1f1;
     margin-left: 400px;
     padding: 20px;
@@ -134,13 +133,13 @@ nav a:hover {
     align-items: center;
 }
 
-.newslatter label {
+.newsletter label {
     margin-bottom: 5px;
 }
 
-.newslatter input [type="text"],
-.newslatter input [type="email"],
-.newslatter button {
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -148,7 +147,7 @@ nav a:hover {
     width: 250px;
 }
 
-.newslatter button {
+.newsletter button {
     background-color: #4CAF50;
     color: #FFFFFF;
     border: none;
@@ -156,7 +155,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.newslatter button:hover {
+.newsletter button:hover {
     background-color: #45a049;
 }
 

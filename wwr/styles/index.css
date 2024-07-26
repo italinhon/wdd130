@@ -113,49 +113,6 @@ nav a:hover {
     height: auto;
     text-align: left;
 }
-
-
-.carousel {
-    position: relative;
-    overflow: hidden;
-    max-width: 100%;
-    height: auto;
-}
-
-.slides {
-    display: flex;
-    animation: slide 10s infinite;
-}
-
-.slide {
-    flex: 1 0 auto;
-    transition: transform 1s ease;
-}
-
-.slide img {
-    width: 1150px;
-    height: auto;
-    margin-left: 110px;
-    margin-top: 1500px
-}
-
-.navigation-slide {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.navigation-slide lable {
-    cursor: pointer;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background: #aaa;
-    border-radius: 50%;
-    margin: 0 5px;
-}
-
 .newslatter {
     text-align: center;
 }
